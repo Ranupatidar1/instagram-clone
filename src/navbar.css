@@ -1,0 +1,29 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(237, 63, 133, 0.94);
+    position: sticky;
+
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    font-weight: 500;
+    color: black;
+
+}
+span{
+    color: black;
+}
+.nav-bar h5{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+@media (max-width:500px){
+    .right{
+      flex-direction: column;
+    }
+  }

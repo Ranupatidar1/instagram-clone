@@ -1,0 +1,39 @@
+.p-page img{
+    width: 160px;
+    height: 160px;
+    border-radius:80px ;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin: 18px 0px;
+    border-bottom: 1px solid gray;
+    
+}
+.p-contact{
+    display: flex;
+    justify-content: space-between;
+    width: 115%;
+   
+}
+.item{
+    
+   width: 400px;
+   height: 350px;
+   margin: 10px;
+  }
+.post{
+    display: flex;
+     flex-wrap: wrap;
+}
+.content{
+    margin-right: 400px;
+}
+h1{
+    margin-left: 50px;
+}
+@media (max-width:500px){
+    .main{
+      flex-direction: column;
+    }
+  }

@@ -1,0 +1,11 @@
+.Submit-button{
+    border-radius: 2px;
+    background: rgba(13, 164, 146, 0.698);
+    border: 2px solid rgba(237, 63, 133, 0.94);
+    width: 40%;
+    height: 30px;
+      color: white;
+}
+.btn {
+    border: 2px solid rgba(237, 63, 133, 0.94);
+}
